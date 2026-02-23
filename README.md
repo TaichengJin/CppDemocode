@@ -12,10 +12,10 @@ RTSP -> Decode -> Preprocess -> ONNX -> Postprocess -> Visualize
 # 2. 主干框架
 
 ## 主干代码：
-`while(running){ \
-	read_frame(); \
-	preprocessing(); \
-	infer(); \
-	postprocessing(); \
-	visualize(); \
+`while(running){\
+	read_frame();\
+	preprocessing();\
+	infer();\
+	postprocessing();\
+	visualize();\
 	}`
