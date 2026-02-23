@@ -22,6 +22,5 @@ while(running){
 	infer();
 	postprocessing();
 	visualize();
-	}```
-
-test
+	}
+```
