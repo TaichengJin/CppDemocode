@@ -3,8 +3,7 @@
 Pipeline:
 RTSP -> Decode -> Preprocess -> ONNX -> Postprocess -> Visualize
 
-问题:\
-## Performance Analysis (CPU Version)
+Performance Analysis (CPU Version)\
 
 | Component        | Latency        |
 |------------------|---------------|
